@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# HF token (never commit secrets)
+.env.local
+secrets.txt
+
+# ChromaDB persistent data (not needed for HF Spaces)
+chroma_db/
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Large model files (never commit)
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# Uploaded PDFs (user uploads, not part of repo)
+uploads/

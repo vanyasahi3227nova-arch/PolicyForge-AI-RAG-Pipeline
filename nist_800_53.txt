@@ -1,0 +1,193 @@
+NIST SP 800-53 Rev 5 — Control Summaries for PolicyForge AI Knowledge Base
+
+=== ACCESS CONTROL (AC) ===
+
+AC-1 | Policy and Procedures
+Organizations must develop, document, and disseminate an access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance. Access control procedures must be established to facilitate the implementation of the access control policy and associated access control controls.
+
+AC-2 | Account Management
+Organizations must manage information system accounts, including establishing, activating, modifying, reviewing, disabling, and removing accounts. This includes identifying account types, assigning account managers, requiring approvals for account creation, monitoring account usage, notifying managers of terminated or transferred users, authorizing access based on valid need, reviewing accounts at defined frequencies, and establishing a process for reissuing shared/group account credentials when individuals leave the group. Organizations must align account management requirements with personnel termination and transfer procedures.
+
+AC-3 | Access Enforcement
+The information system must enforce approved authorizations for logical access to information and system resources in accordance with applicable access control policies. This control supports the confidentiality and integrity protection requirements and is satisfied through implementation of other controls in the access control family.
+
+AC-4 | Information Flow Enforcement
+The information system must enforce approved authorizations for controlling the flow of information within the system and between interconnected systems based on applicable policy. Information flow control regulates where information is allowed to travel within an information system and between information systems, as opposed to who is allowed to access the information.
+
+AC-5 | Separation of Duties
+Organizations must separate duties of individuals as necessary to prevent malevolent activity without collusion, document separation of duties, and implement separation of duties through assigned information system access authorizations. Separation of duties addresses the potential for abuse of authorized privileges and helps reduce the risk of malevolent activity without collusion.
+
+AC-6 | Least Privilege
+Organizations must employ the principle of least privilege, allowing only authorized accesses for users (or processes acting on behalf of users) that are necessary to accomplish assigned organizational tasks. Applying least privilege limits the scope of the user's actions, which reduces the risk associated with misuse of privilege.
+
+AC-7 | Unsuccessful Logon Attempts
+The information system must enforce a limit of consecutive invalid logon attempts by a user during a specified time period, automatically lock the account for a defined time period or until released by an administrator when the maximum number of unsuccessful attempts is exceeded.
+
+AC-11 | Session Lock
+The information system must prevent further access to the system by initiating a session lock after a defined period of inactivity. Session locks are temporary actions taken when users stop work and move away from the immediate vicinity of the system. The session lock remains in effect until the user reestablishes access using established identification and authentication procedures.
+
+AC-14 | Permitted Actions Without Identification or Authentication
+Organizations must identify specific user actions that can be performed on the information system without identification or authentication consistent with organizational missions and business functions.
+
+AC-17 | Remote Access
+Organizations must establish and document usage restrictions, configuration/connection requirements, and implementation guidance for each type of remote access allowed; authorize remote access to the information system prior to allowing such connections; and enforce remote access requirements. Remote access is access to organizational information systems by users (or processes acting on behalf of users) communicating through external networks.
+
+AC-18 | Wireless Access
+Organizations must establish usage restrictions, configuration/connection requirements, and implementation guidance for wireless access; authorize wireless access to the information system prior to allowing such connections; and monitor for unauthorized wireless access to the information system.
+
+AC-20 | Use of External Information Systems
+Organizations must establish terms and conditions, consistent with any trust relationships established with other organizations owning, operating, and/or maintaining external information systems, allowing authorized individuals to access the information system from external information systems.
+
+=== AWARENESS AND TRAINING (AT) ===
+
+AT-1 | Policy and Procedures
+Organizations must develop an awareness and training policy and procedures that addresses purpose, scope, roles, responsibilities, management commitment, coordination, and compliance.
+
+AT-2 | Literacy Training and Awareness
+Organizations must provide basic literacy and awareness training to information system users (including managers, senior executives, and contractors) as part of initial training for new users; when required by information system changes; and at a defined frequency thereafter. The content of awareness training must include recognizing and reporting potential indicators of insider threat.
+
+AT-3 | Role-Based Training
+Organizations must provide role-based security and privacy training to personnel with assigned security and privacy roles and responsibilities before authorizing access to the information system or performing assigned duties; when required by information system changes; and at a defined frequency thereafter.
+
+AT-4 | Training Records
+Organizations must document and monitor information security and privacy training activities, including basic security and privacy literacy training and specific information system security and privacy training; and retain individual training records for a defined time period.
+
+=== AUDIT AND ACCOUNTABILITY (AU) ===
+
+AU-2 | Event Logging
+Organizations must identify the types of events that the information system is capable of logging in support of the audit function; coordinate the event logging function with other organizations requiring audit-related information; and provide a rationale for why the event types selected for logging are deemed adequate to support after-the-fact investigations of security and privacy incidents.
+
+AU-3 | Content of Audit Records
+The information system must generate audit records containing information that establishes what type of event occurred, when the event occurred, where the event occurred, the source of the event, the outcome of the event, and the identity of any individuals or subjects associated with the event.
+
+AU-6 | Audit Record Review, Analysis, and Reporting
+Organizations must review and analyze information system audit records at a defined frequency for indications of inappropriate or unusual activity; report findings to defined personnel or roles; and adjust the level of audit review, analysis, and reporting within the organization if there is a change in risk to organizational operations, assets, individuals, other organizations, or the nation.
+
+AU-9 | Protection of Audit Information
+The information system must protect audit information and audit tools from unauthorized access, modification, and deletion.
+
+AU-11 | Audit Record Retention
+Organizations must retain audit records for a defined time period to provide support for after-the-fact investigations of security and privacy incidents and to meet regulatory and organizational information retention requirements.
+
+=== CONFIGURATION MANAGEMENT (CM) ===
+
+CM-2 | Baseline Configuration
+Organizations must develop, document, and maintain under configuration control, a current baseline configuration of the information system and review and update the baseline configuration at a defined frequency; when required due to information system component installations and upgrades; and as an integral part of information system component installations and upgrades.
+
+CM-6 | Configuration Settings
+Organizations must establish and document configuration settings for information technology products employed within the information system that reflect the most restrictive mode consistent with operational requirements; implement the configuration settings; identify, document, and approve any deviations from established configuration settings; and monitor and control changes to the configuration settings.
+
+CM-7 | Least Functionality
+Organizations must configure the information system to provide only essential capabilities; and prohibit or restrict the use of functions, ports, protocols, and services not required to meet operational requirements.
+
+CM-8 | System Component Inventory
+Organizations must develop and document an inventory of information system components that accurately reflects the current information system; includes all components within the authorization boundary; is at the level of granularity deemed necessary for tracking and reporting; and includes information deemed necessary to achieve effective property accountability.
+
+=== CONTINGENCY PLANNING (CP) ===
+
+CP-2 | Contingency Plan
+Organizations must develop a contingency plan for the information system that addresses contingency roles, responsibilities, assigned individuals with contact information; provides a summary of the recovery actions; identifies essential missions and business functions and associated contingency requirements; provides recovery objectives, restoration priorities, and metrics; addresses contingency roles, responsibilities; maintains the contingency plan.
+
+CP-9 | System Backup
+Organizations must conduct backups of user-level information, system-level information, and information system documentation including security information at a defined frequency; protect the confidentiality, integrity, and availability of backup information at storage locations; and test backup information at a defined frequency to verify media reliability and information integrity.
+
+=== IDENTIFICATION AND AUTHENTICATION (IA) ===
+
+IA-2 | Identification and Authentication (Organizational Users)
+The information system must uniquely identify and authenticate organizational users (or processes acting on behalf of organizational users). Organizational users include employees or individuals that organizations deem to have equivalent status of employees. Organizations may require unique identification of individuals in group accounts such as shared privilege accounts.
+
+IA-2(1) | Multi-Factor Authentication to Privileged Accounts
+The information system must implement multi-factor authentication for access to privileged accounts. Multi-factor authentication requires the use of two or more different factors to achieve authentication. The factors include something you know (e.g., password, PIN), something you have (e.g., cryptographic identification device, token), or something you are (e.g., biometric).
+
+IA-2(2) | Multi-Factor Authentication to Non-Privileged Accounts
+The information system must implement multi-factor authentication for access to non-privileged accounts.
+
+IA-3 | Device Identification and Authentication
+The information system must uniquely identify and authenticate devices before establishing connections as a defined list of devices and/or types of devices.
+
+IA-5 | Authenticator Management
+Organizations must manage information system authenticators by verifying the identity of the individual, group, role, or device receiving the authenticator as part of the initial authenticator distribution; establishing initial authenticator content for authenticators defined by the organization; ensuring that authenticators have sufficient strength of mechanism for their intended use; establishing and implementing administrative procedures for initial authenticator distribution, for lost/compromised or damaged authenticators, and for revoking authenticators.
+
+IA-8 | Identification and Authentication (Non-Organizational Users)
+The information system must uniquely identify and authenticate non-organizational users (or processes acting on behalf of non-organizational users).
+
+=== INCIDENT RESPONSE (IR) ===
+
+IR-1 | Policy and Procedures
+Organizations must develop an incident response policy and procedures that addresses purpose, scope, roles, responsibilities, management commitment, coordination, and compliance.
+
+IR-2 | Incident Response Training
+Organizations must provide incident response training to information system users consistent with assigned roles and responsibilities before authorizing access; when required by information system changes; and at a defined frequency thereafter.
+
+IR-4 | Incident Handling
+Organizations must implement an incident handling capability for security incidents that includes preparation, detection, analysis, containment, eradication, and recovery; coordinate incident handling activities with contingency planning activities; and incorporate lessons learned from ongoing incident handling activities into incident response procedures, training, and testing.
+
+IR-5 | Incident Monitoring
+Organizations must track and document information system security incidents.
+
+IR-6 | Incident Reporting
+Organizations must require personnel to report suspected security incidents to the organizational incident response capability within a defined time period; and report security incident information to defined authorities.
+
+IR-8 | Incident Response Plan
+Organizations must develop an incident response plan that provides the organization with a roadmap for implementing its incident response capability; describes the structure and organization of the incident response capability; provides a high-level approach for how the incident response capability fits into the overall organization; meets the unique requirements of the organization, which relate to mission, size, structure, and functions; defines reportable incidents; provides metrics for measuring the incident response capability within the organization; defines the resources and management support needed to effectively maintain and mature an incident response capability; addresses the sharing of incident information.
+
+=== MAINTENANCE (MA) ===
+
+MA-2 | Controlled Maintenance
+Organizations must schedule, perform, document, and review records of maintenance and repairs on information system components; approve and monitor all maintenance activities; require that a defined official explicitly approve the removal of the information system or system components from organizational facilities for off-site maintenance or repairs; sanitize equipment to remove all information from associated media prior to removal from organizational facilities for off-site maintenance or repairs.
+
+MA-4 | Nonlocal Maintenance
+Organizations must approve and monitor nonlocal maintenance and diagnostic activities; allow the use of nonlocal maintenance and diagnostic tools only as consistent with organizational policy; employ strong authenticators in the establishment of nonlocal maintenance and diagnostic sessions; maintain records for nonlocal maintenance and diagnostic activities.
+
+=== MEDIA PROTECTION (MP) ===
+
+MP-2 | Media Access
+Organizations must restrict access to digital and non-digital media to authorized individuals using defined security measures.
+
+MP-4 | Media Storage
+Organizations must physically control and securely store digital and non-digital media within controlled areas; and protect information system media until the media are destroyed or sanitized using approved equipment, techniques, and procedures.
+
+MP-6 | Media Sanitization
+Organizations must sanitize information system media, both digital and non-digital, prior to disposal, release out of organizational control, or release for reuse using defined sanitization techniques and procedures; and employ sanitization mechanisms with the strength and integrity commensurate with the security category or classification of the information.
+
+=== RISK ASSESSMENT (RA) ===
+
+RA-3 | Risk Assessment
+Organizations must conduct an assessment of risk, including the likelihood and magnitude of harm, from the unauthorized access, use, disclosure, disruption, modification, or destruction of the information system and the information it processes, stores, or transmits; document risk assessment results in a risk assessment report; review risk assessment results at a defined frequency; disseminate risk assessment results to defined personnel or roles; and update the risk assessment at a defined frequency or whenever there are significant changes to the information system or environment of operation.
+
+RA-5 | Vulnerability Monitoring and Scanning
+Organizations must monitor and scan for vulnerabilities in the information system and hosted applications at a defined frequency and/or randomly in accordance with organizational processes; employ vulnerability monitoring tools and techniques that facilitate interoperability among tools and automate parts of the vulnerability management process; analyze vulnerability scan reports and results from security control assessments; remediate legitimate vulnerabilities in a defined response time in accordance with an organizational assessment of risk; share information obtained from the vulnerability monitoring process and security control assessments with defined personnel or roles to help eliminate similar vulnerabilities in other information systems.
+
+=== SYSTEM AND COMMUNICATIONS PROTECTION (SC) ===
+
+SC-7 | Boundary Protection
+The information system must monitor and control communications at the external boundary of the system and at key internal boundaries within the system; implement subnetworks for publicly accessible system components that are physically or logically separated from internal organizational networks; and connect to external networks or information systems only through managed interfaces consisting of boundary protection devices arranged in accordance with an organizational security architecture.
+
+SC-8 | Transmission Confidentiality and Integrity
+The information system must implement cryptographic mechanisms to prevent unauthorized disclosure of information and detect changes to information during transmission unless otherwise protected by alternative physical safeguards.
+
+SC-12 | Cryptographic Key Establishment and Management
+Organizations must establish and manage cryptographic keys when cryptography is required and employed within the information system in accordance with applicable federal laws, executive orders, directives, regulations, policies, standards, and guidance.
+
+SC-13 | Cryptographic Protection
+The information system must implement defined cryptographic uses and type of cryptography required for each use in accordance with applicable federal laws, executive orders, directives, regulations, policies, standards, and guidance.
+
+SC-28 | Protection of Information at Rest
+The information system must protect the confidentiality and integrity of defined information at rest.
+
+=== SYSTEM AND INFORMATION INTEGRITY (SI) ===
+
+SI-2 | Flaw Remediation
+Organizations must identify, report, and correct information system flaws; test software and firmware updates related to flaw remediation for effectiveness and potential side effects before installation; install security-relevant software updates within a defined time period of the release of the updates; and incorporate flaw remediation into the organizational configuration management process.
+
+SI-3 | Malicious Code Protection
+The information system must implement malicious code protection mechanisms at information system entry and exit points to detect and eradicate malicious code; update malicious code protection mechanisms whenever new releases are available; and address the receipt of false positives during malicious code detection and eradication and the resulting potential impact on the availability of the information system.
+
+SI-4 | System Monitoring
+Organizations must monitor the information system to detect attacks and indicators of potential attacks in accordance with monitoring objectives; identify unauthorized use of the information system; deploy monitoring devices strategically within the information system to collect essential information; protect information obtained from intrusion-monitoring tools from unauthorized access, modification, and deletion.
+
+SI-7 | Software, Firmware, and Information Integrity
+The information system must employ integrity verification tools to detect unauthorized changes to software, firmware, and information.
+
+SI-12 | Information Management and Retention
+Organizations must manage and retain information within the information system and information output from the system in accordance with applicable federal laws, executive orders, directives, policies, regulations, standards, and operational requirements.

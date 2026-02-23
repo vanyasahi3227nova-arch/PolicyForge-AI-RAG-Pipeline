@@ -1,0 +1,29 @@
+# PolicyForge AI — HF Spaces requirements
+# No GPU or local LLM loading needed — generation via HF Inference API
+
+# Gradio UI
+gradio==4.44.0
+
+# LangChain ecosystem
+langchain>=0.2.16
+langchain-core>=0.2.38
+langchain-community>=0.2.16
+langchain-text-splitters>=0.2.4
+
+# Vector store (in-memory, no server needed)
+chromadb>=0.5.3
+
+# Embeddings (90MB model, CPU only)
+sentence-transformers>=3.0.1
+
+# BM25 keyword retrieval
+rank_bm25>=0.2.2
+
+# PDF loading
+pypdf>=4.3.1
+
+# HF Inference API (InferenceClient is part of huggingface-hub)
+huggingface-hub>=0.24.6
+
+# Utilities
+pydantic>=2.7.0
