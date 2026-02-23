@@ -13,7 +13,7 @@ short_description: RAG-powered cybersecurity policy generation (NIST 800-53 / IS
 
 # 🛡️ PolicyForge AI — Cybersecurity Knowledge Engine
 
-> **Live Demo:** [https://huggingface.co/spaces/YOUR_USERNAME/policyforge-ai](https://huggingface.co/spaces/YOUR_USERNAME/policyforge-ai)
+> **Live Demo:** [https://huggingface.co/spaces/YOUR_USERNAME/policyforge-ai](https://huggingface.co/spaces/vanyasahi3227nova-arch/policyforge-ai)
 
 A production-grade **Retrieval-Augmented Generation (RAG)** system for generating enterprise cybersecurity policies aligned with **NIST SP 800-53 Rev 5** and **ISO/IEC 27001:2022**.
 
@@ -71,7 +71,7 @@ policyforge-ai/
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_USERNAME/policyforge-ai
+git clone https://github.com/vanyasahi3227nova-arch/policyforge-ai
 cd policyforge-ai
 
 # 2. Install dependencies
@@ -95,10 +95,10 @@ python app.py
 2. Add your HF token as a Space secret: **Settings → Variables and Secrets → `HF_TOKEN`**
 3. Push this repo:
 ```bash
-git remote add space https://huggingface.co/spaces/YOUR_USERNAME/policyforge-ai
+git remote add space https://huggingface.co/spaces/vanyasahi3227nova-arch/policyforge-ai
 git push space main
 ```
-4. Your live URL: `https://huggingface.co/spaces/YOUR_USERNAME/policyforge-ai`
+4. Your live URL: `https://huggingface.co/spaces/vanyasahi3227nova-arch/policyforge-ai`
 
 ---
 
@@ -143,12 +143,8 @@ PRs welcome! Areas for improvement:
 - Add policy export to PDF/DOCX
 - Fine-tune retrieval parameters
 
----
 
-## 📄 License
-
-MIT License — free for personal and commercial use.
 
 ---
 
-*Built with LangChain · ChromaDB · sentence-transformers · Gradio · Mistral-7B*
+*Built with LangChain · ChromaDB · sentence-transformers · Gradio · Mistral-7B | Dense Embeddings | BM25 | Reciprocal Rank Function"
